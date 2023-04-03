@@ -2,7 +2,7 @@
 <html>
 
 <head>
-   
+
 
     <!-- Title Page-->
     <title>Assign Project | Admin Panel</title>
@@ -24,20 +24,20 @@
 <body>
     <header>
         <nav>
-            <h1>XYZ Corp.</h1>
+            <h1>The Computers Limited</h1>
             <ul id="navli">
                 <li><a class="homeblack" href="aloginwel.php">HOME</a></li>
                 <li><a class="homeblack" href="addemp.php">Add Employee</a></li>
                 <li><a class="homeblack" href="viewemp.php">View Employee</a></li>
                 <li><a class="homered" href="assign.php">Assign Project</a></li>
                 <li><a class="homeblack" href="assignproject.php">Project Status</a></li>
-                <li><a class="homeblack" href="salaryemp.php">Salary Table</a></li> 
+                <li><a class="homeblack" href="salaryemp.php">Salary Table</a></li>
                 <li><a class="homeblack" href="empleave.php">Employee Leave</a></li>
                 <li><a class="homeblack" href="alogin.html">Log Out</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <div class="divider"></div>
 
 
@@ -52,9 +52,9 @@
                     <form action="process/assignp.php" method="POST" enctype="multipart/form-data">
 
 
-                        
 
-                         <div class="input-group">
+
+                        <div class="input-group">
                             <input class="input--style-1" type="text" placeholder="Employee ID" name="eid" required="required">
                         </div>
 
@@ -69,13 +69,13 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <input class="input--style-1" type="date" placeholder="date" name="duedate" required="required">
-                                   
+
                                 </div>
                             </div>
-                            
+
                         </div>
-                        
-                        
+
+
 
 
 

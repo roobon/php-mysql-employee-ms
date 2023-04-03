@@ -2,7 +2,7 @@
 <html>
 
 <head>
-   
+
 
     <!-- Title Page-->
     <title>Add Employee | Admin Panel</title>
@@ -24,20 +24,20 @@
 <body>
     <header>
         <nav>
-            <h1>XYZ Corp.</h1>
+            <h1>The Computers Limited</h1>
             <ul id="navli">
                 <li><a class="homeblack" href="aloginwel.php">HOME</a></li>
                 <li><a class="homered" href="addemp.php">Add Employee</a></li>
                 <li><a class="homeblack" href="viewemp.php">View Employee</a></li>
                 <li><a class="homeblack" href="assign.php">Assign Project</a></li>
                 <li><a class="homeblack" href="assignproject.php">Project Status</a></li>
-                <li><a class="homeblack" href="salaryemp.php">Salary Table</a></li> 
+                <li><a class="homeblack" href="salaryemp.php">Salary Table</a></li>
                 <li><a class="homeblack" href="empleave.php">Employee Leave</a></li>
                 <li><a class="homeblack" href="alogin.html">Log Out</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <div class="divider"></div>
 
 
@@ -52,12 +52,12 @@
                     <form action="process/addempprocess.php" method="POST" enctype="multipart/form-data">
 
 
-                        
+
 
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                     <input class="input--style-1" type="text" placeholder="First Name" name="firstName" required="required">
+                                    <input class="input--style-1" type="text" placeholder="First Name" name="firstName" required="required">
                                 </div>
                             </div>
                             <div class="col-2">
@@ -79,7 +79,7 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <input class="input--style-1" type="date" placeholder="BIRTHDATE" name="birthday" required="required">
-                                   
+
                                 </div>
                             </div>
                             <div class="col-2">
@@ -96,17 +96,17 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="input-group">
-                            <input class="input--style-1" type="number" placeholder="Contact Number" name="contact" required="required" >
+                            <input class="input--style-1" type="number" placeholder="Contact Number" name="contact" required="required">
                         </div>
 
                         <div class="input-group">
                             <input class="input--style-1" type="number" placeholder="NID" name="nid" required="required">
                         </div>
 
-                        
-                         <div class="input-group">
+
+                        <div class="input-group">
                             <input class="input--style-1" type="text" placeholder="Address" name="address" required="required">
                         </div>
 

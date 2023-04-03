@@ -25,7 +25,7 @@ $result3 = mysqli_query($conn, $sql3);
 <html>
 
 <head>
-	<title>Employee Panel | The Computers Limited Software Solutions</title>
+	<title>Employee Panel | The Computers Limited</title>
 	<link rel="stylesheet" type="text/css" href="styleemplogin.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat" rel="stylesheet">
 </head>
@@ -34,7 +34,7 @@ $result3 = mysqli_query($conn, $sql3);
 
 	<header>
 		<nav>
-			<h1>XYZ Corp.</h1>
+			<h1>The Computers Limited</h1>
 			<ul id="navli">
 				<li><a class="homered" href="eloginwel.php?id=<?php echo $id ?>"">HOME</a></li>
 				<li><a class=" homeblack" href="myprofile.php?id=<?php echo $id ?>"">My Profile</a></li>
