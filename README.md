@@ -1,4 +1,4 @@
-# Employee Management System Database
+# Employee Management System with PHP-MySQL
 
 Hello There, It is a simple university project of database course. I have made a simple UI and basic SQL commands to make this project.
 Created with help of YouTube, Google, GitHub, Stack Overflow, free templates on the internet and so on. 
